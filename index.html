@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,16 +36,15 @@
     <div class="box p-2">
         <div class="input-group mb-2">
             <input type="text" class="form-control" placeholder="añadir elemento" id="addElementInput">
-            <button class="btn btn-outline-secondary" onclick="add()">añadir</button>
+            <button class="btn btn-outline-secondary" onclick="addItem()">añadir</button>
         </div>
         <p class="mb-1">lista:</p>
         <div id="display">
-            <div id="elemento_n" class="input-group my-1">
-                <span class="form-control">pan frito</span>
-                <button class="btn btn-danger" onclick="add()">x</button>
-            </div>
+            
         </div>
     </div>
+<script src="lista.js"></script>
 </body>
+
 
 </html>
